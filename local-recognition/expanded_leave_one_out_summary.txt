@@ -1,0 +1,148 @@
+Expanded OpenCLIP ViT-B-32 leave-one-out evaluation
+Weights: cached open_clip_model.safetensors. No download was requested.
+Device: cuda (NVIDIA GeForce RTX 3050 Laptop GPU)
+Valid photographs: 42 (22 original, 20 additional)
+Checkpoints represented: 17
+Embedding dimensions: 512
+Embedding time: 2.68 s
+Total time: 4.26 s
+Same-image similarity: 1.000000 to 1.000000
+Same-image similarity only shows that a vector matches itself.
+Near-duplicate screen: cosine similarity >= 0.98. This is not an acceptance threshold.
+
+Metadata flags
+existing red-fort/lahori-gate lahori-gate.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/lahori-gate lahori-gate-user.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/chhatta-chowk chhatta-chowk.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/naubat-khana naubat-khana.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/diwan-i-am diwan-i-am.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/diwan-i-khas diwan-i-khas-1.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/diwan-i-khas diwan-i-khas-2.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/diwan-i-khas diwan-i-khas-3.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/mumtaz-mahal mumtaz-mahal.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/rang-mahal rang-mahal.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/rang-mahal rang-mahal-user.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/rang-mahal rang-mahal-2.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/moti-masjid moti-masjid-1.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/moti-masjid moti-masjid-2.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/hammam hammam.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+existing red-fort/shahi-burj shahi-burj.jpg: the project data records no author or licence. The checkpoint label is kept. No attribution was invented.
+
+Excluded
+shortlist khajuraho/khajuraho-kandariya (no file): verified shortlist only. No local file was downloaded.
+shortlist khajuraho/khajuraho-kandariya (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/chhatta-chowk (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/chhatta-chowk (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/chhatta-chowk (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/naubat-khana (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/naubat-khana (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/naubat-khana (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/diwan-i-am (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/diwan-i-am (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/diwan-i-am (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/hammam (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/hammam (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/hammam (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/shahi-burj (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/shahi-burj (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/shahi-burj (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/mumtaz-mahal (no file): verified shortlist only. No local file was downloaded.
+shortlist red-fort/mumtaz-mahal (no file): verified shortlist only. No local file was downloaded.
+
+Photographs by checkpoint
+khajuraho/khajuraho-kandariya: 1 original, 2 additional
+qutub-minar/qutub-alai-darwaza: 1 original, 3 additional
+qutub-minar/qutub-iron-pillar: 1 original, 4 additional
+qutub-minar/qutub-minar-tower: 1 original, 3 additional
+red-fort/chhatta-chowk: 1 original, 0 additional
+red-fort/diwan-i-am: 1 original, 0 additional
+red-fort/diwan-i-khas: 3 original, 0 additional
+red-fort/hammam: 1 original, 0 additional
+red-fort/lahori-gate: 2 original, 0 additional
+red-fort/moti-masjid: 2 original, 0 additional
+red-fort/mumtaz-mahal: 1 original, 0 additional
+red-fort/naubat-khana: 1 original, 0 additional
+red-fort/rang-mahal: 3 original, 0 additional
+red-fort/shahi-burj: 1 original, 0 additional
+sanchi-stupa/sanchi-great-stupa: 1 original, 2 additional
+sanchi-stupa/sanchi-toranas: 0 original, 2 additional
+taj-mahal/taj-mahal-mausoleum: 1 original, 4 additional
+
+Near-duplicate pairs
+0.9947  red-fort/rang-mahal/rang-mahal.jpg  vs  red-fort/rang-mahal/rang-mahal-user.jpg
+
+Highest different-checkpoint pairs
+No acceptance threshold is proposed.
+0.8916  red-fort/shahi-burj/shahi-burj.jpg  vs  qutub-minar/qutub-alai-darwaza/alai-darwaza.jpg
+0.8886  red-fort/lahori-gate/lahori-gate.jpg  vs  red-fort/naubat-khana/naubat-khana.jpg
+0.8808  red-fort/lahori-gate/lahori-gate-user.jpg  vs  red-fort/naubat-khana/naubat-khana.jpg
+0.8761  sanchi-stupa/sanchi-great-stupa/sanchi-stupa-1.jpg  vs  sanchi-stupa/sanchi-toranas/008 View of South and West Gates (33428100410).jpg
+0.8738  red-fort/diwan-i-am/diwan-i-am.jpg  vs  red-fort/diwan-i-khas/diwan-i-khas-2.jpg
+0.8667  red-fort/rang-mahal/rang-mahal.jpg  vs  qutub-minar/qutub-alai-darwaza/alai-darwaza.jpg
+0.8612  red-fort/diwan-i-khas/diwan-i-khas-2.jpg  vs  qutub-minar/qutub-alai-darwaza/alai-darwaza.jpg
+0.8611  red-fort/diwan-i-am/diwan-i-am.jpg  vs  red-fort/diwan-i-khas/diwan-i-khas-1.jpg
+0.8599  red-fort/rang-mahal/rang-mahal-user.jpg  vs  qutub-minar/qutub-alai-darwaza/alai-darwaza.jpg
+0.8553  red-fort/naubat-khana/naubat-khana.jpg  vs  taj-mahal/taj-mahal-mausoleum/Agra-Taj Mahal-45-Suedostseite-2018-gje.jpg
+
+Leave-one-out on the original 22 photographs only
+evaluable queries 10, raw sibling ranked above other checkpoints 8/10, independent sibling ranked above 7, independent sibling did not 3, no independent sibling 0, not evaluable 12
+
+Leave-one-out on the expanded collection
+evaluable queries 36, raw sibling ranked above other checkpoints 30/36, independent sibling ranked above 29, independent sibling did not 7, no independent sibling 0, not evaluable 6
+
+Checkpoints that previously had one photograph
+khajuraho/khajuraho-kandariya: before expansion, the single original photograph had no sibling. After expansion, 3/3 queries have another photograph of this checkpoint ranked above other checkpoints.
+  kandariya-mahadeva.jpg: raw yes, independent yes, sibling 0.92744118 rank 1, other 0.83451509 rank 3
+  A view from the southside of Kandariya temple 02.jpg: raw yes, independent yes, sibling 0.92744118 rank 1, other 0.81165242 rank 3
+  Kandariya Mahadeva Temple Backside View.jpg: raw yes, independent yes, sibling 0.85000688 rank 1, other 0.84351146 rank 3
+qutub-minar/qutub-alai-darwaza: before expansion, the single original photograph had no sibling. After expansion, 3/4 queries have another photograph of this checkpoint ranked above other checkpoints.
+  alai-darwaza.jpg: raw no, independent no, sibling 0.84374785 rank 5, other 0.89157951 rank 1
+  Alai Darwaza Southern facade (2897540566).jpg: raw yes, independent yes, sibling 0.87858450 rank 1, other 0.81447649 rank 4
+  Alai Darwaza View from the south-west (2896715777).jpg: raw yes, independent yes, sibling 0.87858450 rank 1, other 0.80637693 rank 3
+  East entrance of Alai Darwaza, Qutub Minar complex.jpg: raw yes, independent yes, sibling 0.85400802 rank 1, other 0.81681991 rank 2
+qutub-minar/qutub-iron-pillar: before expansion, the single original photograph had no sibling. After expansion, 4/5 queries have another photograph of this checkpoint ranked above other checkpoints.
+  iron-pillar-delhi.jpg: raw yes, independent yes, sibling 0.83515429 rank 1, other 0.81267238 rank 2
+  Iron Pillar View.jpg: raw yes, independent yes, sibling 0.85329407 rank 1, other 0.77346808 rank 3
+  Far view of iron pillar.jpg: raw yes, independent yes, sibling 0.83515429 rank 1, other 0.81546354 rank 2
+  Iron Pillar at Qutb Complex.jpg: raw no, independent no, sibling 0.71770310 rank 2, other 0.71791464 rank 1
+  Iron Pillar of Chandragupta II Vikramaditya.jpg: raw yes, independent yes, sibling 0.85329407 rank 1, other 0.80733740 rank 2
+qutub-minar/qutub-minar-tower: before expansion, the single original photograph had no sibling. After expansion, 4/4 queries have another photograph of this checkpoint ranked above other checkpoints.
+  qutb-minar.jpg: raw yes, independent yes, sibling 0.82890552 rank 1, other 0.81024092 rank 4
+  Qutb Minar from a Low-Angle View, Delhi, India.jpg: raw yes, independent yes, sibling 0.87201983 rank 1, other 0.78805590 rank 3
+  Blue sky behind Qutb Minar.jpg: raw yes, independent yes, sibling 0.87201983 rank 1, other 0.84351146 rank 2
+  Qutb Minar seen from Qutb Complex.jpg: raw yes, independent yes, sibling 0.82890552 rank 1, other 0.82106352 rank 2
+red-fort/chhatta-chowk: still one photograph. A new viewpoint cannot be tested.
+red-fort/diwan-i-am: still one photograph. A new viewpoint cannot be tested.
+red-fort/hammam: still one photograph. A new viewpoint cannot be tested.
+red-fort/mumtaz-mahal: still one photograph. A new viewpoint cannot be tested.
+red-fort/naubat-khana: still one photograph. A new viewpoint cannot be tested.
+red-fort/shahi-burj: still one photograph. A new viewpoint cannot be tested.
+sanchi-stupa/sanchi-great-stupa: before expansion, the single original photograph had no sibling. After expansion, 2/3 queries have another photograph of this checkpoint ranked above other checkpoints.
+  sanchi-stupa-1.jpg: raw no, independent no, sibling 0.86649406 rank 2, other 0.87613750 rank 1
+  001 Approaching the Stupa (33797177001).jpg: raw yes, independent yes, sibling 0.86649406 rank 1, other 0.81165242 rank 3
+  The Great Stupa of Sanchi, Raisen.jpg: raw yes, independent yes, sibling 0.85677594 rank 1, other 0.80531293 rank 3
+taj-mahal/taj-mahal-mausoleum: before expansion, the single original photograph had no sibling. After expansion, 5/5 queries have another photograph of this checkpoint ranked above other checkpoints.
+  taj-mahal.jpg: raw yes, independent yes, sibling 0.94083059 rank 1, other 0.76066560 rank 5
+  The symmetrical front view of Taj Mahal.jpg: raw yes, independent yes, sibling 0.94083059 rank 1, other 0.78360873 rank 5
+  Agra-Taj Mahal-45-Suedostseite-2018-gje.jpg: raw yes, independent yes, sibling 0.89665318 rank 1, other 0.85531211 rank 5
+  Tajmahal side view Mausoleum in Agra 9.jpg: raw yes, independent yes, sibling 0.87673086 rank 1, other 0.79448485 rank 5
+  A view of Taj Mahal from the Mosque adjacent.jpg: raw yes, independent yes, sibling 0.93646789 rank 1, other 0.75672895 rank 5
+
+Checkpoints that had no original photograph
+sanchi-stupa/sanchi-toranas: 1/2 queries have another photograph of this checkpoint ranked above other checkpoints.
+  008 View of South and West Gates (33428100410).jpg: raw no, independent no, sibling 0.82503045 rank 2, other 0.87613750 rank 1
+  003 Side View with Stupa Dome (33812402705).jpg: raw yes, independent yes, sibling 0.82503045 rank 1, other 0.80038702 rank 2
+
+Checkpoints that already had more than one original photograph
+red-fort/diwan-i-khas: original gallery 3/3; expanded gallery 3/3.
+red-fort/lahori-gate: original gallery 2/2; expanded gallery 2/2.
+red-fort/moti-masjid: original gallery 0/2; expanded gallery 0/2.
+red-fort/rang-mahal: original gallery 3/3; expanded gallery 3/3.
+
+Limitations
+Every query is another stored reference photograph, not a newly captured visitor photograph.
+A different file is not automatically an unseen viewpoint. Near-duplicate pairs are listed above.
+The viewpoint notes in reference_manifest.csv describe the documented angle. They were not inferred further.
+Checkpoints with one photograph still cannot support a leave-one-out test.
+The original embedding_evaluation.csv was not modified.
+Detailed rows: E:\TravelEye-Rebirth\local-recognition\expanded_leave_one_out.csv

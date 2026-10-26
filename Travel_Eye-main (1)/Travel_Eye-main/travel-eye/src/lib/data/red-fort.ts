@@ -1,0 +1,187 @@
+import type { Site } from "@/types";
+
+/**
+ * Red Fort checkpoint data curated from public sources (Wikipedia, ASI, Wikimedia).
+ * Reference photos live in /public/references/ for reliable offline scanning.
+ */
+export const RED_FORT: Site = {
+  id: "red-fort-delhi",
+  slug: "red-fort",
+  name: "Red Fort (Lal Qila)",
+  city: "Delhi",
+  country: "India",
+  description:
+    "A 17th-century Mughal fortress built by Emperor Shah Jahan. Its red sandstone walls, royal halls, and intricate craftsmanship tell the story of India's imperial past.",
+  overview:
+    "Shah Jahan built the Red Fort as the palace-fort of Shahjahanabad, his new capital at Delhi, in the 17th century. The outer walls are red sandstone. The route through the fort runs from the Lahori Gate, through the covered bazaar and the drum house, to the audience halls and the palaces along the river. UNESCO inscribed the Red Fort Complex in 2007.",
+  latitude: 28.6562,
+  longitude: 77.241,
+  coverImage: "/references/lahori-gate.jpg",
+  checkpoints: [
+    {
+      id: "lahori-gate",
+      slug: "lahori-gate",
+      name: "Lahori Gate",
+      category: "gate",
+      shortDescription: "The grand main entrance facing Lahore (now Pakistan).",
+      story:
+        "The Lahori Gate is the principal entrance to the Red Fort and faces the city of Lahore, once part of the Mughal Empire. Built in red sandstone, it was designed to impress visitors with the power and grandeur of the emperor. Every year on Independence Day, the Prime Minister of India hoists the national flag here — linking this Mughal gateway to modern India's most important ceremony.",
+      latitude: 28.656159,
+      longitude: 77.24102,
+      radiusMeters: 45,
+      referenceImageUrl: "/references/lahori-gate.jpg",
+      referenceImageUrls: [
+        "/references/lahori-gate.jpg",
+        "/references/lahori-gate-user.jpg",
+      ],
+      sortOrder: 1,
+    },
+    {
+      id: "chhatta-chowk",
+      slug: "chhatta-chowk",
+      name: "Chhatta Chowk",
+      category: "architecture",
+      shortDescription: "A covered bazaar once reserved for royal shopping.",
+      story:
+        "Chhatta Chowk, meaning 'covered bazaar', is a vaulted arcade that once housed shops selling silk, jewellery, and spices exclusively for the royal household. Its arched bays create a dramatic transition from the outer world into the emperor's private domain. Walking through here, you follow the same path merchants and nobles took four centuries ago.",
+      latitude: 28.65645,
+      longitude: 77.2412,
+      radiusMeters: 35,
+      referenceImageUrl: "/references/chhatta-chowk.jpg",
+      referenceImageUrls: ["/references/chhatta-chowk.jpg"],
+      sortOrder: 2,
+    },
+    {
+      id: "naubat-khana",
+      slug: "naubat-khana",
+      name: "Naubat Khana (Drum House)",
+      category: "architecture",
+      shortDescription: "Where royal musicians announced the emperor's arrival.",
+      story:
+        "Naubat Khana, the Drum House, stood at the point where the public area ended and the private imperial quarters began. Musicians played naubat — ceremonial music — five times daily from its upper gallery. The size and timing of the performance reflected the emperor's rank. Commoners could not pass beyond this point without special permission.",
+      latitude: 28.65658,
+      longitude: 77.24135,
+      radiusMeters: 30,
+      referenceImageUrl: "/references/naubat-khana.jpg",
+      referenceImageUrls: ["/references/naubat-khana.jpg"],
+      sortOrder: 3,
+    },
+    {
+      id: "diwan-i-am",
+      slug: "diwan-i-am",
+      name: "Diwan-i-Am (Hall of Public Audience)",
+      category: "hall",
+      shortDescription: "Where the emperor heard petitions from ordinary people.",
+      story:
+        "Diwan-i-Am was the Hall of Public Audience where Emperor Shah Jahan and his successors met subjects and addressed common grievances. The famous Peacock Throne once stood on its marble dais before Nadir Shah looted it in 1739. The hall's red sandstone pillars and gilded ceiling were designed to project imperial authority while remaining accessible to the public.",
+      latitude: 28.65685,
+      longitude: 77.2415,
+      radiusMeters: 40,
+      referenceImageUrl: "/references/diwan-i-am.jpg",
+      referenceImageUrls: ["/references/diwan-i-am.jpg"],
+      sortOrder: 4,
+    },
+    {
+      id: "diwan-i-khas",
+      slug: "diwan-i-khas",
+      name: "Diwan-i-Khas (Hall of Private Audience)",
+      category: "hall",
+      shortDescription: "The legendary hall with the inscription about paradise.",
+      story:
+        "Diwan-i-Khas was reserved for the emperor's closest advisors, ambassadors, and high nobility. Its marble pillars once bore the famous inscription: 'If there is a paradise on earth, it is this, it is this, it is this.' This was the political heart of the Mughal Empire — where treaties were signed, alliances forged, and the fate of millions decided.",
+      latitude: 28.6571,
+      longitude: 77.24165,
+      radiusMeters: 35,
+      referenceImageUrl: "/references/diwan-i-khas-1.jpg",
+      referenceImageUrls: [
+        "/references/diwan-i-khas-1.jpg",
+        "/references/diwan-i-khas-2.jpg",
+        "/references/diwan-i-khas-3.jpg",
+      ],
+      sortOrder: 5,
+    },
+    {
+      id: "mumtaz-mahal",
+      slug: "mumtaz-mahal",
+      name: "Mumtaz Mahal",
+      category: "palace",
+      shortDescription: "Palace quarters named after Shah Jahan's beloved empress.",
+      story:
+        "Mumtaz Mahal, named after the empress who inspired the Taj Mahal, housed the zenana — the women's quarters of the royal household. Today it serves as a museum displaying Mughal artefacts, textiles, and weapons. The building itself reflects the refined domestic architecture of the fort, where privacy and beauty were equally prized.",
+      latitude: 28.65725,
+      longitude: 77.2418,
+      radiusMeters: 35,
+      referenceImageUrl: "/references/mumtaz-mahal.jpg",
+      referenceImageUrls: ["/references/mumtaz-mahal.jpg"],
+      sortOrder: 6,
+    },
+    {
+      id: "rang-mahal",
+      slug: "rang-mahal",
+      name: "Rang Mahal (Palace of Colours)",
+      category: "palace",
+      shortDescription: "The empress's residence, cooled by a central channel of water.",
+      story:
+        "Rang Mahal, the Palace of Colours, was where the emperor's wives and mistresses lived. A central stream called the Nahr-i-Behisht (Stream of Paradise) flowed through its rooms, keeping them cool in Delhi's fierce summers. The name reflects the vibrant decorations that once adorned its interiors — a private world of luxury hidden behind the fort's austere red walls.",
+      latitude: 28.6574,
+      longitude: 77.24195,
+      radiusMeters: 35,
+      referenceImageUrl: "/references/rang-mahal.jpg",
+      referenceImageUrls: [
+        "/references/rang-mahal.jpg",
+        "/references/rang-mahal-user.jpg",
+        "/references/rang-mahal-2.jpg",
+      ],
+      sortOrder: 7,
+    },
+    {
+      id: "moti-masjid",
+      slug: "moti-masjid",
+      name: "Moti Masjid (Pearl Mosque)",
+      category: "mosque",
+      shortDescription: "A private marble mosque built by Aurangzeb for royal worship.",
+      story:
+        "Moti Masjid, the Pearl Mosque, was added by Emperor Aurangzeb in 1659. Built entirely of white marble, it earned its name from the pearly sheen of its domes when sunlight hits them. Unlike the grand Jama Masjid nearby, this was a private place of worship for the emperor and his family — intimate, serene, and perfectly proportioned.",
+      latitude: 28.65755,
+      longitude: 77.2421,
+      radiusMeters: 30,
+      referenceImageUrl: "/references/moti-masjid-1.jpg",
+      referenceImageUrls: [
+        "/references/moti-masjid-1.jpg",
+        "/references/moti-masjid-2.jpg",
+      ],
+      sortOrder: 8,
+    },
+    {
+      id: "hammam",
+      slug: "hammam",
+      name: "Royal Hammam (Baths)",
+      category: "architecture",
+      shortDescription: "Ornate royal baths with channels for hot and cold water.",
+      story:
+        "The Royal Hammam served the emperor and his family with separate bathing chambers for hot and cold water. Its floors and walls were once inlaid with marble and coloured stones forming floral patterns. Steam rose through concealed channels while attendants prepared oils and perfumes — a daily ritual of Mughal royal life that combined hygiene, luxury, and ceremony.",
+      latitude: 28.6573,
+      longitude: 77.24205,
+      radiusMeters: 25,
+      referenceImageUrl: "/references/hammam.jpg",
+      referenceImageUrls: ["/references/hammam.jpg"],
+      sortOrder: 9,
+    },
+    {
+      id: "shahi-burj",
+      slug: "shahi-burj",
+      name: "Shahi Burj (Royal Tower)",
+      category: "architecture",
+      shortDescription: "Octagonal tower where the emperor appeared before the public.",
+      story:
+        "Shahi Burj, the Royal Tower, is an octagonal pavilion at the north-eastern edge of the fort. From here the emperor could appear before crowds gathered on the banks of the Yamuna River. The tower also housed the Zafar Mahal section and offers views across the fort complex — a reminder that the Red Fort was designed as both fortress and stage for imperial spectacle.",
+      latitude: 28.65765,
+      longitude: 77.2422,
+      radiusMeters: 35,
+      referenceImageUrl: "/references/shahi-burj.jpg",
+      referenceImageUrls: ["/references/shahi-burj.jpg"],
+      sortOrder: 10,
+    },
+  ],
+};
+

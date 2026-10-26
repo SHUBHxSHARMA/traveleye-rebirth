@@ -1,0 +1,6 @@
+Reference import validation
+This report does not add, remove, rename, or overwrite gallery files.
+Candidates: 0. Passed: 0. Needs review: 0. Failed: 0.
+A near-duplicate note is a warning. It is not a rejection by itself.
+
+No staged image files were found.

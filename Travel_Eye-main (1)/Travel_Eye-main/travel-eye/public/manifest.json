@@ -1,0 +1,10 @@
+{
+  "name": "Travel Eye",
+  "short_name": "Travel Eye",
+  "description": "Point your camera at a historic place and read its story.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f1e7",
+  "theme_color": "#143028",
+  "orientation": "portrait"
+}
