@@ -20,14 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 ADDED_ROOT = ROOT / "references"
 MANIFEST_PATH = ROOT / "reference_manifest.csv"
-EXISTING_DIR = (
-    ROOT.parent
-    / "Travel_Eye-main (1)"
-    / "Travel_Eye-main"
-    / "travel-eye"
-    / "public"
-    / "references"
-)
+EXISTING_DIR = ROOT.parent / "travel-eye" / "public" / "references"
 USER_AGENT = "TravelEyeLocalResearch/1.0 (educational reference collection)"
 
 # title, destination, checkpoint, viewpoint note confirmed from the file title,

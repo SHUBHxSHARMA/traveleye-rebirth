@@ -28,14 +28,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 CACHE_DIR = SCRIPT_DIR / "cache"
 RESULTS_PATH = SCRIPT_DIR / "embedding_evaluation_expanded.csv"
 MANIFEST_PATH = SCRIPT_DIR / "reference_manifest.csv"
-REFERENCE_DIR = (
-    SCRIPT_DIR.parent
-    / "Travel_Eye-main (1)"
-    / "Travel_Eye-main"
-    / "travel-eye"
-    / "public"
-    / "references"
-)
+REFERENCE_DIR = SCRIPT_DIR.parent / "travel-eye" / "public" / "references"
 
 MODEL_NAME = "ViT-B-32"
 PRETRAINED = "openai"
