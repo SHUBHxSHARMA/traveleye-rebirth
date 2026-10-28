@@ -1,0 +1,13 @@
+strategy,exclusion,rule,all_queries,evaluable_queries,not_evaluable_queries,top1_correct,top1_accuracy,accepted_correct,accepted_match_rate,false_accept_evaluable,false_accept_rate_evaluable,rejected_evaluable,rejection_rate_evaluable,false_accept_all,false_accept_rate_all,ties
+baseline_max,held_out_self,production_0.97_0.05,16,10,6,8,0.8000,4,0.4000,0,0.0000,6,0.6000,0,0.0000,0
+baseline_mean,held_out_self,production_0.97_0.05,16,10,6,8,0.8000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+multicrop_max,held_out_self,production_0.97_0.05,16,10,6,7,0.7000,4,0.4000,0,0.0000,6,0.6000,0,0.0000,0
+center60_max,held_out_self,production_0.97_0.05,16,10,6,6,0.6000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+unsharp_max,held_out_self,production_0.97_0.05,16,10,6,8,0.8000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+baseline_max,held_out_self_and_near_duplicates,production_0.97_0.05,16,10,6,8,0.8000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+baseline_mean,held_out_self_and_near_duplicates,production_0.97_0.05,16,10,6,8,0.8000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+multicrop_max,held_out_self_and_near_duplicates,production_0.97_0.05,16,10,6,5,0.5000,2,0.2000,0,0.0000,8,0.8000,0,0.0000,0
+center60_max,held_out_self_and_near_duplicates,production_0.97_0.05,16,10,6,4,0.4000,0,0.0000,0,0.0000,10,1.0000,0,0.0000,0
+unsharp_max,held_out_self_and_near_duplicates,production_0.97_0.05,16,10,6,6,0.6000,0,0.0000,0,0.0000,10,1.0000,0,0.0000,0
+text_zeroshot,all_red_fort_photos,top1_only,16,16,0,2,0.1250,,,,,,,,,0
+text_zeroshot,sibling_checkpoints_only,top1_only,10,10,0,2,0.2000,,,,,,,,,0
